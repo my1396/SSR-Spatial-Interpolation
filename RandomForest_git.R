@@ -4,16 +4,7 @@
         # 2. Merging all models prediction all together;
 
 library(tidyverse)
-library(sp)
-library(raster)
-library(gstat)
 library(ranger)
-library(mgcv)
-library(ggplot2)
-library(latex2exp)
-library(gridExtra)
-library(lubridate)
-library(zoo)
 
 
 ## define command

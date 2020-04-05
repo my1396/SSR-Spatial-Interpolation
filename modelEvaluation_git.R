@@ -3,11 +3,6 @@
         # 1. Models evaluation (various error metrics);
 
 library(tidyverse)
-library(sp)
-library(raster)
-library(gstat)
-library(ranger)
-library(mgcv)
 library(ggplot2)
 library(latex2exp)
 library(gridExtra)

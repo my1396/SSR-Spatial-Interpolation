@@ -13,6 +13,7 @@ library(raster)
 library(gstat)
 library(randomForest)
 library(mgcv)
+library(ggplot2)
 
 # define custom commands
 select <- dplyr::select
