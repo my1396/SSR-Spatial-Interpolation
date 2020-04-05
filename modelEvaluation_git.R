@@ -17,6 +17,8 @@ select <- dplyr::select
 figure_dir <- "./plot/"
 data_dir <- "./data/"
 
+con_name <- 'EU'
+con_folder <- 'Europe/'
 
 f_name <- paste0(data_dir, con_folder, 
                  sprintf('%s_prediction_RF.csv', con_name))
