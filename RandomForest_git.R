@@ -3,12 +3,10 @@
         # 1. Random Forest prediction;
         # 2. Merging all models prediction all together;
 
-setwd("/Users/apple/Documents/phd/RAD_Proj/data_documentation")
 library(tidyverse)
 library(sp)
 library(raster)
 library(gstat)
-# library(randomForest)
 library(ranger)
 library(mgcv)
 library(ggplot2)

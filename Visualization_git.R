@@ -3,12 +3,10 @@
         # 1. Trend inspection and visualization;
         # 2. Simulation v.s. Observation scatter plot with R^2 reported
 
-setwd("/Users/apple/Documents/phd/RAD_Proj/data_documentation")
 library(tidyverse)
 library(sp)
 library(raster)
 library(gstat)
-# library(randomForest)
 library(ranger)
 library(mgcv)
 library(ggplot2)

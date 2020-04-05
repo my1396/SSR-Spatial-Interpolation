@@ -6,9 +6,6 @@
 #               predictions
 
 
-# set working directory
-setwd("/Users/apple/Documents/phd/RAD_Proj/EMS_SSR")
-
 library(tidyverse)
 library(latex2exp)
 library(sp)

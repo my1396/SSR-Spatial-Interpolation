@@ -2,7 +2,6 @@
 # This script conducts 
         # 1. Models evaluation (various error metrics);
 
-setwd("/Users/apple/Documents/phd/RAD_Proj/data_documentation")
 library(tidyverse)
 library(sp)
 library(raster)
