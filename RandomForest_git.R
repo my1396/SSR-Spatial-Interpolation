@@ -25,7 +25,7 @@ kfoldSplit <- function(x, k=10, train=TRUE){
 
 
 
-rsds_data <- read_csv("./data/extended_data.csv", 
+rsds_data <- read_csv("./data/extended_data_sample.csv", 
                       na = c(""))
 head(rsds_data)
 
