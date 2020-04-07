@@ -14,9 +14,9 @@ The project mainly include the following:
 | modelEvaluation_git.R    | Evaluates model performance           |
 | Visualization_git.R      | Plots SSR trends                      |
 
-* Folder `data` includes a sample dataset, together with six folders corresponding to relavent model outputs/results for six continents.
+* The folder `data` includes a sample dataset, together with six folders corresponding to relavent model outputs/results for six continents.
 
-* Folder `plot` is the directory to store output figures from the programs.
+* The folder `plot` is the directory to store output figures from the programs.
 
 
 
