@@ -4,7 +4,6 @@
         # 2. Simulation v.s. Observation scatter plot with R^2 reported
 
 library(tidyverse)
-library(mgcv)
 library(ggplot2)
 library(latex2exp)
 library(gridExtra)

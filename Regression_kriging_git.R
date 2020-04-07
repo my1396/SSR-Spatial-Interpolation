@@ -11,7 +11,6 @@ library(latex2exp)
 library(sp)
 library(raster)
 library(gstat)
-library(randomForest)
 library(mgcv)
 library(ggplot2)
 
