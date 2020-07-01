@@ -30,8 +30,8 @@ rsds_data <- read_csv("./data/extended_data_sample.csv",
 head(rsds_data)
 
 auxilary_v <- c('CLD','DTR','FRS', 'PRE', 'TMN', 'TMP', 'TMX', 'VAP', 'WET','URB','LAT', 'LON','MON','ALT')
-neighbor_v <- c('z_k3', 'RAD_may3', 'RAD_tm1', 'zw_k3', 'RAD_may2', 'RAD_t1', 'z_k2')
-
+neighbor_v <- c('z_k1', 'zw_k1', 'zsig_k1', 'z_k2', 'zw_k2', 'zsig_k2','z_k3', 'zw_k3', 'zsig_k3', 'z_k1k2', 'z_k2k3', 'zw_k1k2', 'zw_k2k3','RAD_tm1', 'RAD_t1', 'RAD_t2', 'RAD_t3', 'RAD_mam2', 'RAD_mam3',  'RAD_may2', 'RAD_may3')
+regressors <- c(auxilary_v, neighbor_v)
 
 ###    Random Forest Prediction ### --------------------------------
 con_name <- 'EU'
