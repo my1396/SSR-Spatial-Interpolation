@@ -79,7 +79,7 @@ for (i in 1:10){
         paste("RAD", 
               paste(c(auxilary_v, neighbor_v), collapse = " + "), 
               sep = " ~ ")), data=EU[idx, ])
-    rf.pred.test <- predict(RF_ranger, data=EU[-idx, c(auxilary_v, neighbor_v)])$predictions
+    rf.pred.test <- predict(RF_ranger, data=EU[-idx, c(auxilary_v, neighbor_v)], num.trees=700, mtry=6)$predictions
     
     obs.test <- EU[-idx,'RAD'] %>% pull()
     
@@ -122,5 +122,3 @@ f_name <- paste0(data_dir, con_folder,
 f_name
 # write_csv(continent_prediction_RF, f_name)
 
-# Or read in the results directly
-# continent_prediction_RF <- read_csv(f_name)
